@@ -18,3 +18,6 @@ pg_dump vk > vk.dump.sql
 
 # Восстановление из резервной копии
 psql vk_test < vk.dump.sql
+
+# Удаление таблицы
+DROP TABLE имя_таблицы

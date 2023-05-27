@@ -1,0 +1,19 @@
+nikita@nikita-VirtualBox:~$ sudo su - postgres
+[sudo] пароль для nikita: 
+postgres@nikita-VirtualBox:~$ psql
+psql (14.7 (Ubuntu 14.7-0ubuntu0.22.04.1))
+Type "help" for help.
+postgres=# SHOW server_version;
+           server_version            
+-------------------------------------
+ 14.7 (Ubuntu 14.7-0ubuntu0.22.04.1)
+(1 row)
+postgres=# help
+You are using psql, the command-line interface to PostgreSQL.
+Type:  \copyright for distribution terms
+       \h for help with SQL commands
+       \? for help with psql commands
+       \g or terminate with semicolon to execute query
+       \q to quit
+postgres=# 
+

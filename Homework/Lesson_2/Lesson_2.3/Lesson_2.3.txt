@@ -1,0 +1,148 @@
+nikita@nikita-VirtualBox:~$ sudo su - postgres
+[sudo] пароль для nikita: 
+postgres@nikita-VirtualBox:~$ psql vk_staging < vk.dump1.sql
+SET
+SET
+SET
+SET
+SET
+ set_config 
+------------
+ 
+(1 row)
+SET
+SET
+SET
+SET
+SET
+SET
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+CREATE TABLE
+ALTER TABLE
+CREATE SEQUENCE
+ALTER TABLE
+ALTER SEQUENCE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+COPY 100
+COPY 100
+COPY 100
+COPY 100
+COPY 100
+COPY 50
+COPY 100
+COPY 100
+COPY 50
+ setval 
+--------
+    100
+(1 row)
+
+ setval 
+--------
+    100
+(1 row)
+
+ setval 
+--------
+    116
+(1 row)
+
+
+ setval 
+--------
+    100
+(1 row)
+
+
+ setval 
+--------
+    355
+(1 row)
+
+
+ setval 
+--------
+    100
+(1 row)
+
+
+ setval 
+--------
+    102
+(1 row)
+
+
+ setval 
+--------
+     50
+(1 row)
+
+
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+ALTER TABLE
+postgres@nikita-VirtualBox:~$ psql
+psql (14.7 (Ubuntu 14.7-0ubuntu0.22.04.1))
+Type "help" for help.
+
+
+postgres=# \c vk_staging
+You are now connected to database "vk_staging" as user "postgres".
+vk_staging=# SELECT * FROM users LIMIT 5;
+vk_staging=# 
+
