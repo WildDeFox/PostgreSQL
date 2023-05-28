@@ -21,3 +21,15 @@ psql vk_test < vk.dump.sql
 
 # Удаление таблицы
 DROP TABLE имя_таблицы
+
+# Удаление вторичного ключа
+ALTER TABLE имя_таблицы DROP CONSTRAINT имя_вторичного_ключа;
+
+# Приведения типа 
+SELECT created_at, CAST (created_at AS VARCHAR(4)) FROM users WHERE id = 1;
+
+# Приведения типа в PostgreSQL
+SELECT created_at, created_at::CARCHAR(4) FROM users WHERE id = 1;
+
+# Создание своего типа
+CREATE TYPE likes_stat_type AS (likes INTEGER, dislikes INTEGER);
